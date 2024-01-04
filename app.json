@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ProgressPal",
+    "slug": "com-sivsolutions-progresspal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stefanxmiami.comsivsolutionsprogresspal"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "17695d20-f1b9-41d3-bc0e-2296f5e624e8"
+      }
+    }
+  }
+}
